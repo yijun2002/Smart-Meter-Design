@@ -1,5 +1,5 @@
 //With turboAVR
-turboAVR smart_meter.c D5.c font.c ili934x.c lcdnew.c
+turboAVR smart_meter.c Display.c font.c ili934x.c lcdnew.c
 
 //With console
 avr-gcc -mmcu=atmega644p -DF_CPU=12000000 -Wall -Os smart_meter.c D5.c font.c ili934x.c lcdnew.c -o prog.elf
