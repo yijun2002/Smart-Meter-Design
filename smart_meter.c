@@ -1,5 +1,5 @@
 //Compilation command
-//turboAVR SM_18042023.c D5.c font.c ili934x.c lcdnew.c
+//turboAVR SM_18042023.c Display.c font.c ili934x.c lcdnew.c
 //-----------------------------------------------------
 
 #include <avr/io.h>
