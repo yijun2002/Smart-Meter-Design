@@ -4,4 +4,4 @@
 
 #User interface: Display.c
 
-#Additional Feautures: Desktop App and Web App search for vk12
+#Additional Feautures: Desktop App and Web App search for ver12
