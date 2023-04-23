@@ -1,0 +1,7 @@
+//With turboAVR
+turboAVR smart_meter.c D5.c font.c ili934x.c lcdnew.c
+
+//With console
+avr-gcc -mmcu=atmega644p -DF_CPU=12000000 -Wall -Os smart_meter.c D5.c font.c ili934x.c lcdnew.c -o prog.elf
+avr-objcopy -O ihex prog.elf prog.hex
+avrdude -c usbasp -p m644p -U flash:w:prog.hex
